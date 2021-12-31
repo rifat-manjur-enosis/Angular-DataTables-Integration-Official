@@ -9,6 +9,7 @@ import { WithOptionsComponent } from './with-options/with-options.component';
 import { WithAjaxComponent } from './with-ajax/with-ajax.component';
 import { AngularWayComponent } from './angular-way/angular-way.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ServerSideAngularWayComponent } from './server-side-angular-way/server-side-angular-way.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     ZeroConfigurationComponent,
     WithOptionsComponent,
     WithAjaxComponent,
-    AngularWayComponent
+    AngularWayComponent,
+    ServerSideAngularWayComponent
   ],
   imports: [
     BrowserModule,
