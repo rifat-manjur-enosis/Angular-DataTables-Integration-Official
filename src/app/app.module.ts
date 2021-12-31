@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { DataTablesModule } from "angular-datatables";
 import { ZeroConfigurationComponent } from './zero-configuration/zero-configuration.component';
 import { WithOptionsComponent } from './with-options/with-options.component';
+import { WithAjaxComponent } from './with-ajax/with-ajax.component';
+import { AngularWayComponent } from './angular-way/angular-way.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     ZeroConfigurationComponent,
-    WithOptionsComponent
+    WithOptionsComponent,
+    WithAjaxComponent,
+    AngularWayComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DataTablesModule
+    DataTablesModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
